@@ -1,0 +1,21 @@
+set $wallpaper /home/sahil/dark.jpg
+
+set $background #040506
+set $foreground #c0c0c0
+
+set $color0 #040506
+set $color1 #3E5861
+set $color2 #455258
+set $color3 #475C63
+set $color4 #526971
+set $color5 #696A6D
+set $color6 #637B83
+set $color7 #c0c0c0
+set $color8 #424344
+set $color9 #3E5861
+set $color10 #455258
+set $color11 #475C63
+set $color12 #526971
+set $color13 #696A6D
+set $color14 #637B83
+set $color15 #c0c0c0

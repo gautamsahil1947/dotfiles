@@ -1,0 +1,12 @@
+[submodule ".config/nvim"]
+	path = .config/nvim
+	url = https://github.com/gautamsahil1947/nvim
+[submodule ".local/src/dwm"]
+	path = .local/src/dwm
+	url = https://github.com/gautamsahil1947/dwm
+[submodule ".local/src/dmenu"]
+	path = .local/src/dmenu
+	url = https://github.com/gautamsahil1947/dmenu
+[submodule ".local/src/st"]
+	path = .local/src/st
+	url = https://github.com/gautamsahil1947/st
