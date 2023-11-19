@@ -4,6 +4,8 @@ function setup() {
     sudo echo "/usr/bin/zsh" >> /etc/shells
     chsh -s $(which zsh)
     sudo chsh -s $(which zsh)
+    git submodule update --init --recursive # add repos
+
     buildsuckless
     startx
 }
