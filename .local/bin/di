@@ -1,0 +1,9 @@
+#!/bin/bash
+
+file="/home/sahil/.config/repos/personal/dict.md"
+[ -f "$file" ] && true || touch $file
+
+
+response=$(dmenu -p "Enter Word: ")
+notify-send "$response"
+echo "$response" >> $file

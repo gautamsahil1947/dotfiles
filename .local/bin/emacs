@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# echo "$#"
+# if $# -eq 1;
+# then
+#     echo "Equal to 1"
+# fi
+# emacsclient -c
+
+if [ "$#" -eq 1 ]
+then
+    emacsclient -c $1
+else
+    emacsclient -c
+fi

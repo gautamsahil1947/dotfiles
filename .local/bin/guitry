@@ -1,0 +1,8 @@
+#!/bin/bash
+# taking userinput and storing it in a variable
+# sahil=$(whiptail --title "Title" --ok-button "Agreed" --inputbox "inputboxtext" 12 43  3>&1 1>&2 2>&3)
+# echo "$sahil $sahil"
+
+# now only plain boxes are left
+    whiptail --title "installing please wait"  --defaultno  --msgbox "thisis the message" 12 43
+

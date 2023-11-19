@@ -1,0 +1,6 @@
+#!/bin/bash
+
+killall emacs
+notify-send "Emacs" "Killed all emacs"
+/usr/bin/emacs --daemon
+emacs

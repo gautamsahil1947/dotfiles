@@ -1,0 +1,17 @@
+# #!/bin/bash
+#
+# # has the ability to add and remove time somehow
+# # and also plays the sounds if the alaram goes on with the notification
+#
+#
+#
+# currentTime=$(date +%H%M)
+# alarmIcon="/home/sahil/.config/repos/personal/icons/alaram64.png"
+# alarmTime=$1
+#
+# while [ "$currentTime" = "$alarmTime" ]
+# do
+#     notify-send -i $alarmIcon -r 129482 "Alaram $(date +%H:%M)"
+#     sleep 4
+#     currentTime=$(date +%H%M)
+# done

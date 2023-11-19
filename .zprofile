@@ -1,7 +1,7 @@
 
 [[ -f ~/.zshrc ]] && . ~/.zshrc
 
-export PATH="/home/sahil/.config/repos/utils/bin:$PATH"
+export PATH="/home/sahil/.local/bin:$PATH"
 export EDITOR=nvim
 export GTK_THEME=Adwaita:dark
 
