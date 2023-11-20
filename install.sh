@@ -71,3 +71,4 @@ command -v yay || installYay
 # install packages
 packageInstall
 setup
+# tpm(tmux plugin manager) install for tmux

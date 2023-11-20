@@ -3,7 +3,7 @@
 status=$(xrandr -q | grep "^DP-1 connected")
 
 # [ -d "/home/$USER/.config/repos/personal" ] && 
-wallpaper="/home/$USER/.local/share/second.jpg"
+wallpaper="/home/$USER/.local/share/wallpaper.jpg"
 # wallpaper="/home/$USER/install/second.jpg"
 
 if [ -z $status ]
