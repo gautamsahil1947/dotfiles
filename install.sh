@@ -5,8 +5,11 @@ function setup() {
     chsh -s $(which zsh)
     sudo chsh -s $(which zsh)
     git submodule update --init --recursive # add repos
+
+    # tpm(tmux plugin manager) install for tmux
+    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
     buildsuckless
-    reboot
 }
 
 
@@ -71,4 +74,5 @@ command -v yay || installYay
 # install packages
 packageInstall
 setup
-# tpm(tmux plugin manager) install for tmux
+# trying git
+
